@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Looden\\Framework\\Dummy": "/src"
+            "Looden\\Framework\\Dummy\\": "/src"
         }
     },
     "extra": {
