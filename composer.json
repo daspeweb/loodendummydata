@@ -23,7 +23,7 @@
 
     "minimum-stability": "stable",
     "require": {
-        "laravel/laravel": "5.6.*",
+        "laravel/laravel": "*",
         "daspeweb/looden": "*"
     }
 }
