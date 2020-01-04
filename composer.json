@@ -1,0 +1,29 @@
+{
+    "name": "daspeweb/looden-dummy-data",
+    "type": "library",
+    "description": "Dummy data for Looden ",
+    "authors": [
+        {
+            "name": "Guilherme Reis",
+            "email": "guilherme.reis@daspeweb.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Looden\\Framework\\Dummy": "/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Looden\\Framework\\Dummy\\LoodenDummyDataFrameworkServiceProvider"
+            ]
+        }
+    },
+
+    "minimum-stability": "stable",
+    "require": {
+        "laravel/laravel": "5.6.*",
+        "daspeweb/looden": "*"
+    }
+}
