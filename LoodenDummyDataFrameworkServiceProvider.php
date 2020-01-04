@@ -3,14 +3,12 @@
 namespace Looden\Framework\Dummy;
 
 use Illuminate\Support\ServiceProvider;
-use Looden\Framework\Console\Commands\ModelReader;
-use Looden\Framework\Console\Commands\TokenGenerator;
 use Looden\Framework\Dummy\Console\Commands\DummyData;
 
 class LoodenDummyDataFrameworkServiceProvider extends ServiceProvider {
 
     protected $commands = [
-        DummyData ::class,
+        DummyData::class,
     ];
     public function boot()
     {
